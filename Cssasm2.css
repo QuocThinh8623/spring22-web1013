@@ -1,0 +1,192 @@
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+    height: 60px;
+  }
+  input[type="text"]:focus{
+    width:300px; 
+}
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+
+    transition:0.6s ease-in-out;
+  }
+  input[type="text"]:focus{
+    width:300px; 
+    background-color:lightpink;
+}
+/*trang con khác*/
+#menu ul ul{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 22%;
+    background-color: green;
+    height: 22%;
+    box-shadow: 0 0 1px gray;
+}
+#menu ul ul a{
+    display: block;
+    color: black;
+    font-size: larger;
+    padding: 0px 10px;
+}
+#menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+
+#vanphong ul ul{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 12%;
+    background-color: pink;
+    height: 18%;
+    box-shadow: 0 0 1px gray;
+}
+#vanphong ul ul a{
+    display: block;
+    color: black;
+    font-size: larger;
+    padding: 0px 10px;
+}
+#vanphong>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    left: 30%;
+}
+#gaming ul ul{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 12%;
+    background-color: pink;
+    height: 18%;
+    box-shadow: 0 0 1px gray;
+}
+#gaming ul ul a{
+    display: block;
+    color: black;
+    font-size: larger;
+    padding: 0px 10px;
+}
+#gaming>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    left: 20%;
+}
+#dohoa ul ul{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 12%;
+    background-color: pink;
+    height: 20%;
+    box-shadow: 0 0 1px gray;
+}
+#dohoa ul ul a{
+    display: block;
+    color: black;
+    font-size: larger;
+    padding: 0px 10px;
+}
+#dohoa>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    left: 40%;
+}
+#phukien ul ul{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 12%;
+    background-color: pink;
+    height: 32%;
+    box-shadow: 0 0 1px gray;
+}
+#phukien ul ul a{
+    display: block;
+    color: black;
+    font-size: larger;
+    padding: 0px 10px;
+}
+#phukien>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+}
+ul{
+    list-style: none;
+}
+@media screen and (max-width: 1360px)
+    {
+        .quangcao{
+            position: absolute;
+            background-color: beige;
+        }
+        body{
+            width: auto;
+        }
+        .bocuc{
+            width: auto;
+        }
+        header{
+            width: auto;
+        }
+        aside{
+            width: auto;
+        }
+        article{
+            width: auto;
+        }
+        footer{
+            width: auto;
+        }
+    }
